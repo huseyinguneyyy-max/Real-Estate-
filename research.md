@@ -348,3 +348,17 @@ Kodu AI'nın yazması süreyi kısaltır. Ama asıl darboğaz kod değil: **ilan
 - Global: [Rightmove RNS 27.02.26](https://plc.rightmove.co.uk/content/uploads/2026/02/Rightmove-RNS-27.02.26.pdf) · [The Negotiator](https://thenegotiator.co.uk/news/marketing-news/rightmove-revenue-up-9-as-agent-spending-rises/)
 - AI staging kuralları: [The Close](https://theclose.com/news-ai-listing-photo-disclosure/) · [NorthstarMLS](https://northstarmls.com/insights/guidelines-for-virtual-staging-and-ai-enhanced-listing-photos/)
 - Reklam maliyeti: [LocaliQ](https://localiq.com/blog/real-estate-search-advertising-benchmarks/) · [Search Engine Land](https://searchengineland.com/google-ads-costs-keep-rising-but-conversion-rates-improved-in-2025-477927)
+
+---
+
+## 15. Güncelleme v1.1 (24.10.2026): Yalın plan ve takas tanımı
+
+**Takas (kurucu tanımı):** galerimplus'taki takas mantığının eve uyarlanması. Kullanıcı beğendiği ev ilanında "Aracımı takasa ver" der ve aracının fotoğraflarını, marka/model/km bilgisini yükler. AI aracın tahmini değerini ve evle arasındaki farkı hesaplar. Bu kart emlakçının paneline ve WhatsApp'ına düşer, emlakçı kullanıcıyı arar. Aynı akış arsa ↔ ev ve ev ↔ ev için de çalışır. Araç değerlemesi için galerimplus ile ortaklık seçeneği var. → **Karar: MVP.** Bu tanımla §12'deki "tam sistem: yapma" kararı geçersiz; amaç eşleştirme değil, emlakçıya sıcak müşteri adayı üretmek.
+
+**Kapsam kararları:** Emlakçı otomasyonu ilk sürümde. Hızlı butonlar (acil satılık, vitrin, öğrenci evi, ödeme planlı, takasa açık, fiyatı düşen) MVP'de.
+
+**Yalın finans planı** (`models/finans_modeli.py`, tüm rakamlar varsayım):
+- Aylık gider: ~£6.500. Yazılımcı £2.000, 2 pazarlamacı £2.600, reklam ve içerik £1.200 (4. aydan), altyapı £400, diğer £300. Kurucu maaş almıyor. Tek seferlik gider £6.000.
+- En derin nakit ihtiyacı: 9. ayda ~£47 bin. **Yatırımcıdan istenen tutar: £60 bin, iki dilimde** (£30 bin hemen, £30 bin 5. ayda; ikinci dilim 1.500 ilan / 40 ofis / ayda 150 müşteri adayı hedeflerine bağlı).
+- Temel senaryo: 10. ayda aylık kâra geçiş, 19. ayda kümülatif başabaş. Yatırım geri dönene kadar net kârın %50'si yatırımcıya giderse yatırımcı **25. ayda** parasını geri alır. Temkinli senaryoda (ofis büyümesi ve referans geliri yarıya düşerse) **30. ayda**.
+- 24. ayda aylık gelir ≈ £23.550 (185 ücretli ofis).

@@ -12,7 +12,7 @@
 
 > **[Sahne 1, fısıltıyla, gizemli]** Psst… Beni gördünüz mü?
 >
-> **[Sahne 2, şakacı, merak uyandıran]** Ben kimim? Hmm… Belki de bu adayı en iyi tanıyan kaplumbağa!
+> **[Sahne 2, şakacı, merak uyandıran]** Ben kimim? Hmm… Belki de bu adayı en iyi tanıyan Caretta caretta!
 >
 > **[Sahne 3, coşkulu]** Heyecanlanıyor musunuz? Çünkü ben çok heyecanlıyım!
 >

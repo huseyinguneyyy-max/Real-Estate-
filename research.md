@@ -362,3 +362,18 @@ Kodu AI'nın yazması süreyi kısaltır. Ama asıl darboğaz kod değil: **ilan
 - En derin nakit ihtiyacı: 9. ayda ~£47 bin. **Yatırımcıdan istenen tutar: £60 bin, iki dilimde** (£30 bin hemen, £30 bin 5. ayda; ikinci dilim 1.500 ilan / 40 ofis / ayda 150 müşteri adayı hedeflerine bağlı).
 - Temel senaryo: 10. ayda aylık kâra geçiş, 19. ayda kümülatif başabaş. Yatırım geri dönene kadar net kârın %50'si yatırımcıya giderse yatırımcı **25. ayda** parasını geri alır. Temkinli senaryoda (ofis büyümesi ve referans geliri yarıya düşerse) **30. ayda**.
 - 24. ayda aylık gelir ≈ £23.550 (185 ücretli ofis).
+
+## 16. Güncelleme v1.2 (24.10.2026): Maaşlı plan ve yatırımcıya aylık ödeme
+
+Kurucu kararları: ekip maaş alacak; yatırımcıya %40–50 hisse teklif edilecek; yatırımcı 12. aydan itibaren ayda en az $7–8 bin almalı ve parasının tamamı 3 yıl içinde geri dönmeli.
+
+- Aylık gider ~£8.500: kurucu £1.500, yazılımcı £2.000, 2 pazarlamacı £2.600, reklam £1.500 (4. aydan), diğer £900. 16. aydan satış temsilcisi ve daha fazla reklamla £11.000. Tek seferlik gider £6.000.
+- **İstenen tutar: £65 bin**, iki dilimde (£45 bin hemen, £20 bin 5. ayda; ikinci dilim 1.500 ilan / 40 ofis / 8 müteahhit projesi hedeflerine bağlı).
+- **Ödeme kuralı:** para geri dönene kadar net kârın %70'i yatırımcıya, sonrasında hisse oranında.
+- **Hedef senaryo:** 12. ayda 82 ücretli ofis, 19 proje, ayda 1 yurt dışı satış referansı. Aylık gelir 12. ayda £16.070, 24. ayda £37.310.
+  - Yatırımcıya ödeme: 12. ayda £5.300 (~$7.000), 15. ayda £8.500, 24. ayda £13.150.
+  - Para 19. ayda geri döner, 36 ayda toplam ödeme £334 bin.
+- **Gelir hedefin %75'inde kalırsa:** 12. ayda ödeme £2.500, para 22. ayda geri döner, 36 ayda toplam £215 bin.
+- **Gelir hedefin %60'ında kalırsa:** 12. ayda ödeme £800, para 26. ayda geri döner, 36 ayda toplam £145 bin. Bu senaryoda ilk aylarda ~£10 bin ek nakit gerekebilir.
+- **Sonuç:** "12. aydan itibaren $7–8 bin" ancak hedef senaryoda mümkün. "3 yılda paranın tamamı geri" ise üç senaryoda da tutuyor.
+- **En kritik varsayım:** müteahhit geliri (proje paketleri + yurt dışı satış referansı). Lansmandan önce en az 5 müteahhitle niyet mektubu imzalanmalı.

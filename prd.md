@@ -1,17 +1,17 @@
-# prd.md — Adakey
+# prd.md — Shellter
 
-> **Adakey**: ada + key (anahtar), "Adanın anahtarı". KKTC'nin yapay zeka destekli emlak platformu.
+> **Shellter**: shell (kabuk) + shelter (barınak, yuva). Maskot önerisi: evini sırtında taşıyan Kıbrıs deniz kaplumbağası (Caretta caretta, Alagadi). KKTC'nin yapay zeka destekli emlak platformu.
 > Sürüm: v0.1 taslak · 24.10.2026 · Rakamlar `models/finans_modeli.py` dosyasından alındı; hepsi varsayım.
 
 ---
 
-## 1. Tek cümlede Adakey
+## 1. Tek cümlede Shellter
 
 Ev arayan için **ücretsiz, güvenli ve 5 dilde konuşan** bir emlak platformu. Emlakçı ve müteahhit için **ilanı bir kez girip her yerde yayınlatan ve müşteri getiren** bir iş aracı.
 
 ## 2. Kimler kullanacak?
 
-| Kişi | Ne istiyor | Adakey ona ne veriyor |
+| Kişi | Ne istiyor | Shellter ona ne veriyor |
 |---|---|---|
 | Yerel alıcı / kiracı | Hızlı, doğru, güncel ilan | Tüm ilanlar tek yerde, alarm, WhatsApp ile iletişim |
 | Öğrenci | Ucuz, okula yakın kiralık | Öğrenci Evi butonu, üniversiteye mesafe filtresi |
@@ -23,7 +23,7 @@ Ev arayan için **ücretsiz, güvenli ve 5 dilde konuşan** bir emlak platformu.
 
 ## 3. Web sitesi ve uygulama: sayfa sayfa
 
-### 3.1 Kullanıcı tarafı (adakey.app ve iOS/Android)
+### 3.1 Kullanıcı tarafı (shellter.com ve iOS/Android)
 1. **Ana sayfa:** Büyük arama kutusu ("Ne arıyorsunuz? Yazın, biz bulalım"), hızlı butonlar, öne çıkan projeler, vitrin ilanları.
 2. **Hızlı butonlar:** Acil Satılık · Vitrin · Öğrenci Evi · Ödeme Planlı / Taksitli · Takasa Açık · Fiyatı Düşen · Yeni Projeler · Denize Sıfır.
 3. **Arama sonuçları:** Liste ve harita görünümü. Filtreler: fiyat, oda, m², bölge, tapu türü, eşyalı, ödeme planı, takasa açık.
@@ -50,7 +50,7 @@ Ev arayan için **ücretsiz, güvenli ve 5 dilde konuşan** bir emlak platformu.
 
 ### 3.2 Emlakçı / müteahhit paneli
 1. **İlan girişi:** Fotoğraf yükle, AI başlık ve açıklamayı yazsın, 5 dile çevirsin. Tapu türü zorunlu.
-2. **Toplu ilan aktarma:** Excel, XML ya da web sitesinden. İlk kurulumu Adakey ekibi yapar.
+2. **Toplu ilan aktarma:** Excel, XML ya da web sitesinden. İlk kurulumu Shellter ekibi yapar.
 3. **Otomasyon merkezi:** Ayrıntısı §5'te.
 4. **Müşteri kutusu (mini CRM):**
    - Gelen tüm talepler tek yerde: WhatsApp tıklamaları, formlar, takas teklifleri, Ev Arıyorum eşleşmeleri.
@@ -58,7 +58,7 @@ Ev arayan için **ücretsiz, güvenli ve 5 dilde konuşan** bir emlak platformu.
 5. **Performans raporu:** İlan başına görüntülenme, tıklama, arama sayısı; haftalık e-posta.
 6. **Paket ve doping:** Vitrin satın alma, öne çıkarma, paket yükseltme.
 
-### 3.3 Yönetim paneli (Adakey ekibi)
+### 3.3 Yönetim paneli (Shellter ekibi)
 - Ofis doğrulama (KTEB belgesi, kimlik), ilan onayı
 - Şikayet ve sahte ilan takibi
 - Blog ve rehber içerik yönetimi
@@ -67,7 +67,7 @@ Ev arayan için **ücretsiz, güvenli ve 5 dilde konuşan** bir emlak platformu.
 
 ---
 
-## 4. Adakey Asistan: yapay zeka sohbet botu
+## 4. Shellter Asistan: yapay zeka sohbet botu
 
 Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir sekmesi olur. **WhatsApp ve Instagram DM'den de aynı asistan cevap verir** (2. fazda).
 
@@ -75,7 +75,7 @@ Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir 
 1. **Sohbetle ev arama:** "Girne'de denize yakın, £150 bin altı, eşyalı 2+1 arıyorum." Asistan soruları netleştirir ("Bütçeniz peşin mi, taksitli mi?") ve ilanları kart olarak gösterir.
 2. **Taksit ve ödeme planı:** "Bu evi 24 ay taksitle alabilir miyim?" Asistan ilandaki ödeme planını okur, peşinat ve aylık taksiti hesaplar. Banka kredisi seçeneği varsa gösterir.
 3. **Takas:** "Arabamı vermek istiyorum." Asistan araç bilgisini alır, tahmini değeri ve farkı söyler, takas kartını emlakçıya gönderir.
-4. **Yabancı alıcı soruları:** "Yabancı olarak kaç daire alabilirim?", "Tapu türü ne demek?", "Vergiler ne kadar?" Cevaplar Adakey'in güncel rehberinden gelir ve her cevapta "Avukatınıza doğrulatın" notu bulunur.
+4. **Yabancı alıcı soruları:** "Yabancı olarak kaç daire alabilirim?", "Tapu türü ne demek?", "Vergiler ne kadar?" Cevaplar Shellter'in güncel rehberinden gelir ve her cevapta "Avukatınıza doğrulatın" notu bulunur.
 5. **Bölge danışmanı:** "Aileyle yaşamak için İskele mi Girne mi?", "Kira getirisi en yüksek bölge hangisi?"
 6. **Site yardımı:** "Nasıl ilan veririm?", "Paketler ne kadar?", "Vitrin ne işe yarar?"
 7. **Emlakçıya devir:** Kullanıcı ilgilendiğinde asistan "Sizi emlakçıyla bağlayayım mı?" diye sorar. Sohbet özeti (bütçe, aradığı ev, takas varlığı) emlakçının müşteri kutusuna düşer. **Emlakçıya giden müşteri adayı böylece "sıcak" olur.**
@@ -87,7 +87,7 @@ Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir 
 
 **Maliyet:** AI API kullanımı başlangıçta ayda ~£100–300. Konuşma sayısı arttıkça artar ve altyapı bütçesinin içinde.
 
-**evlek'ten farkı:** evlek'in AI'ı arama kutusunda çalışıyor ve uygulamada bir asistan sekmesi var. Adakey Asistan'ın farkları:
+**evlek'ten farkı:** evlek'in AI'ı arama kutusunda çalışıyor ve uygulamada bir asistan sekmesi var. Shellter Asistan'ın farkları:
 - Taksit hesaplıyor ve takas alıyor
 - Müşteriyi emlakçıya özetle devrediyor
 - WhatsApp ve Instagram'da da çalışıyor
@@ -100,7 +100,7 @@ Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir 
 
 | # | Otomasyon | Ne yapar |
 |---|---|---|
-| 1 | Her yerde yayınla | İlan girilince Instagram gönderisi ve hikâyesi + Facebook sayfası paylaşımı otomatik hazırlanır ve yayınlanır. Her paylaşımda Adakey linki ve ofis etiketi bulunur |
+| 1 | Her yerde yayınla | İlan girilince Instagram gönderisi ve hikâyesi + Facebook sayfası paylaşımı otomatik hazırlanır ve yayınlanır. Her paylaşımda Shellter linki ve ofis etiketi bulunur |
 | 2 | Otomatik Reels | İlan fotoğraflarından müzikli kısa video üretilir (2. faz) |
 | 3 | 5 dile çeviri | TR, EN, RU, DE, AR |
 | 4 | AI ilan metni | Fotoğraflardan oda ve özellik çıkarımı, başlık ve açıklama önerisi |
@@ -134,7 +134,7 @@ Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir 
 ### Faz 0 · 1. ay: Kurulum ve saha (gider ~£13.000)
 - **Yapılacaklar:**
   - Şirket kuruluşu, avukat görüşü (tapu ve reklam politikası)
-  - Adakey marka kimliği, alan adları, sosyal medya hesapları
+  - Shellter marka kimliği, alan adları, sosyal medya hesapları
   - **30 emlak ofisi ve 5 müteahhitle görüşme**, Kurucu Ortak sözleşmeleri
   - Tasarım ve teknik altyapı kurulumu
   - Instagram'da ilk içerikler (haftada 5 Reels)
@@ -149,7 +149,7 @@ Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir 
 ### Faz 1 · 2.–3. ay: Ürünü yapma (gider ~£14.000)
 - **Yapılacaklar:**
   - Web sitesi, emlakçı paneli, otomasyon (Instagram/Facebook paylaşımı, çeviri, AI metin)
-  - Takas akışı, Ev Arıyorum, Adakey Asistan'ın ilk sürümü
+  - Takas akışı, Ev Arıyorum, Shellter Asistan'ın ilk sürümü
   - İlan aktarma: Kurucu Ortak ofislerin ilanları taşınır
   - iOS ve Android uygulamaları
 - **Para nereye gidiyor:** Maaşlar £12.200, altyapı ve AI £800, diğer £1.000
@@ -209,7 +209,7 @@ Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir 
 
 evlek'in güçlü olduğu alanlar ürün, SEO ve AI. Tek kişi olmasına rağmen hızlı özellik ekliyor. **AI özelliklerinde yarışmak bizi geride bırakır, çünkü AI artık herkesin erişebildiği bir şey.** Bizim kazanacağımız yerler:
 
-| Alan | evlek | Adakey |
+| Alan | evlek | Shellter |
 |---|---|---|
 | İlan hacmi | 931 ilan, %84 Girne | Saha ekibiyle 1.500 → 5.000 ilan, tüm bölgeler |
 | Emlakçı otomasyonu (IG/FB) | Yok | Ana özellik |
@@ -224,7 +224,7 @@ Kural: Her yeni özellik için önce şu soru sorulur: **"Bu emlakçıya ya da m
 
 ---
 
-## 8. Adakey nerelere büyüyebilir?
+## 8. Shellter nerelere büyüyebilir?
 
 1. **Ev360 hizmet pazaryeri:** avukat, tapu takibi, taşınma, tadilat, konut sigortası. Gelir modeli komisyon.
 2. **Mülk yönetimi:** Yurt dışındaki ev sahipleri için kira tahsilatı, bakım, kısa dönem kiralama yönetimi. Düzenli aylık gelir getirir.
@@ -237,6 +237,6 @@ Kural: Her yeni özellik için önce şu soru sorulur: **"Bu emlakçıya ya da m
 
 ## 9. Açık konular
 - Hisse oranı (%40 veya %50) ve aylık kâr payı ödemesinin hukuki yapısı (muhasebeci ve avukat)
-- adakey.app / adakey.io alan adlarının satın alınması ve marka tescili (adakey.com kayıtlı)
+- shellter.com / .app / .io alan adlarının satın alınması ve marka tescili (DNS ön kontrolünde boş görünüyor)
 - Şirketin hangi ülkede kurulacağı
 - İlk 5 müteahhitten niyet mektubu

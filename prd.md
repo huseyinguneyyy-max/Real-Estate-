@@ -1,6 +1,6 @@
 # prd.md — Shellter
 
-> **Shellter**: shell (kabuk) + shelter (barınak, yuva). Maskot önerisi: evini sırtında taşıyan Kıbrıs deniz kaplumbağası (Caretta caretta, Alagadi). KKTC'nin yapay zeka destekli emlak platformu.
+> **Shellter**: shell (kabuk) + shelter (barınak, yuva). Maskot ve asistan: **Tosbi**, evini sırtında taşıyan Kıbrıs deniz kaplumbağası (Caretta caretta, Alagadi). Asistanın adı ve AI videolarının karakteri aynı: "Tosbi'ye sor". KKTC'nin yapay zeka destekli emlak platformu.
 > Sürüm: v0.1 taslak · 24.10.2026 · Rakamlar `models/finans_modeli.py` dosyasından alındı; hepsi varsayım.
 
 ---
@@ -67,7 +67,7 @@ Ev arayan için **ücretsiz, güvenli ve 5 dilde konuşan** bir emlak platformu.
 
 ---
 
-## 4. Shellter Asistan: yapay zeka sohbet botu
+## 4. Tosbi: Shellter'ın yapay zeka asistanı
 
 Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir sekmesi olur. **WhatsApp ve Instagram DM'den de aynı asistan cevap verir** (2. fazda).
 
@@ -87,7 +87,7 @@ Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir 
 
 **Maliyet:** AI API kullanımı başlangıçta ayda ~£100–300. Konuşma sayısı arttıkça artar ve altyapı bütçesinin içinde.
 
-**evlek'ten farkı:** evlek'in AI'ı arama kutusunda çalışıyor ve uygulamada bir asistan sekmesi var. Shellter Asistan'ın farkları:
+**evlek'ten farkı:** evlek'in AI'ı arama kutusunda çalışıyor ve uygulamada bir asistan sekmesi var. Tosbi'nin farkları:
 - Taksit hesaplıyor ve takas alıyor
 - Müşteriyi emlakçıya özetle devrediyor
 - WhatsApp ve Instagram'da da çalışıyor
@@ -149,7 +149,7 @@ Sitenin her sayfasında sağ altta bir balon olarak durur. Uygulamada ayrı bir 
 ### Faz 1 · 2.–3. ay: Ürünü yapma (gider ~£14.000)
 - **Yapılacaklar:**
   - Web sitesi, emlakçı paneli, otomasyon (Instagram/Facebook paylaşımı, çeviri, AI metin)
-  - Takas akışı, Ev Arıyorum, Shellter Asistan'ın ilk sürümü
+  - Takas akışı, Ev Arıyorum, Tosbi'nin ilk sürümü
   - İlan aktarma: Kurucu Ortak ofislerin ilanları taşınır
   - iOS ve Android uygulamaları
 - **Para nereye gidiyor:** Maaşlar £12.200, altyapı ve AI £800, diğer £1.000
